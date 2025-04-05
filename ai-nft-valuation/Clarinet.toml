@@ -1,0 +1,7 @@
+[project]
+name = "ai-nft-valuation"
+requirements = []
+costs_version = 2
+[contracts.nft-valuation]
+path = "contracts/nft-valuation.clar"
+depends_on = []

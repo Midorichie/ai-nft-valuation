@@ -1,7 +1,13 @@
 [project]
 name = "ai-nft-valuation"
+version = "0.1.0"
 requirements = []
 costs_version = 2
+
 [contracts.nft-valuation]
 path = "contracts/nft-valuation.clar"
 depends_on = []
+
+[contracts.nft-ownership]
+path = "contracts/nft-ownership.clar"
+depends_on = ["nft-valuation"]
